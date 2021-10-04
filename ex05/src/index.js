@@ -32,3 +32,7 @@ let elliot = new Facebook("Mark Elliot Zuckerberg", 23);
 elliot.occupation();
 elliot.studentAge();
 // Only change code above this line
+module.exports = {
+    Microsoft,
+    Facebook
+}

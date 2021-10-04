@@ -5,5 +5,5 @@ function lastName(lastName){
     return lastName.toLowerCase();
 }
 
-exports.firstName = firstName("Jhon");
-exports.lastName = lastName("Doe");
+exports.firstName = firstName;
+exports.lastName = lastName;

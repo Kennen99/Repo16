@@ -1,3 +1,4 @@
 var person = require('./nameFunctions');
-
-console.log(person.firstName person.lastName));
+person.firstName = "John";
+person.lastName = "Doe";
+console.log(person.firstName, person.lastName);
